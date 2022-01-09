@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Minesweeper</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Recursive&family=Red+Rose&family=Sriracha&family=Ubuntu&family=Poppins&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js"></script>
+  </head>
+  <body>
+    <div class="main">
+      <h2>MINESWEEPER</h2>
+      <hr />
+      <br /><br />
+      <div class="container">
+        <div class="grid"></div>
+        <div class="flags">Flags left: <span id="flags-left"></span></div>
+        <div id="result"></div>
+        <div id="play" style="display: none">
+          <button class="new-game-btn" type="button" onclick="reload()">
+            Play Again
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

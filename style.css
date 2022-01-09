@@ -1,0 +1,45 @@
+* {
+  font-family: "Poppins";
+}
+
+body {
+  background: url("images/bg1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  align-items: center;
+}
+
+.main {
+  color: #fff;
+  margin: 0 auto;
+  width: 30%;
+  height: auto;
+  box-sizing: border-box;
+  border: 5px solid #fff;
+  text-align: center;
+  padding: 8px;
+  margin-top: 80px;
+}
+
+.submain {
+  text-align: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.submain a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.submain a span {
+  display: block;
+  margin: 8px;
+}
+
+.submain img {
+  width: 200px;
+  height: auto;
+}
