@@ -12,9 +12,11 @@
   </head>
 
   <body class="flex-row">
+    <!--Menu part start-->
     <div id="main__container">
       <div id="header__controls" class="flex-row">
         <span id="header__menu">
+          <!--img contains a dropdown-->
           <img src="images/3dots.svg" id="dotMenuSpan" />
         </span>
         <span id="header__header">SUDOKU</span>
@@ -26,6 +28,7 @@
         </div>
         <div id="newGame">New Game</div>
         <div id="clear">Clear All</div>
+        <!--Solver contains a sub dropdown-->
         <div id="solver">
           <span id="text"></span>
           <div id="solverMenu">
@@ -60,12 +63,13 @@
       <div id="board"></div>
       <div id="keypad" class="flex-row"></div>
     </div>
+    <!--Menu part ends-->
 
-    <!-- home page with menu options -->
+    <!-- home page with menu options start -->
     <div id="home">
       <div id="header">
         <div id="title">SUDOKU</div>
-
+        <!-- selecting the size-->
         <div id="selection__size" class="selection flex-row">
           <span class="title">Size</span>
           <div class="options flex-row">
@@ -97,7 +101,7 @@
             </span>
           </div>
         </div>
-
+        <!--selecting the difficulty level-->
         <div id="selection__level" class="selection flex-row">
           <span class="title">Level</span>
           <div class="options">
@@ -106,10 +110,13 @@
             <span data-level="2">Evil</span>
           </div>
         </div>
+        <!--Start button (in the form of a div)-->
         <div id="start">Start</div>
       </div>
     </div>
+    <!-- home page with menu options end -->
 
+    <!--Vanilla JS files included-->
     <script src="global.js"></script>
     <script src="combinations.js"></script>
     <script src="validate.js"></script>
